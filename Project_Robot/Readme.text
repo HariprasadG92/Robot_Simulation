@@ -1,0 +1,26 @@
+Task - Problem Statement
+A robot listens to inputs and makes movements based on the input. Such an input can only be a two-letter input. For e.g N4, E3, S1, W2. The first character of the input refers to the first letter of the directions- North, East, West and South. The second character of the input refers to the number of steps to take in the direction. Write a program with appropriate unit test cases in a language that you are comfortable to:
+
+a) Create multiple robots.
+b) Associate each robot with a unique number.
+a) Move a selected robot in terrain based on the input. If there is already a robot at the destination cell, the robot should stop in the previous cell.
+b) Display the current location of the selected robot in the terrain.
+
+Assume that:
+
+a) the terrain is represented as a grid/matrix of rows and columns, where each cell corresponds to a step to be taken by the robot, and
+b) a robot always starts at the first cell of the grid.
+c) the terrain doesn't need to be visually represented.
+
+Objective
+
+The objective of this task is to design and implement a system to effectively manage multiple robots operating on a virtual grid. The system should:
+
+Allow the creation of multiple robots, each with a unique identifier.
+Control the movement of individual robots based on directional commands.
+Ensure that no two robots occupy the same grid cell by preventing collisions during movement.
+Provide functionality to retrieve and display the current location of any robot.
+This system aims to demonstrate efficient robot coordination and collision avoidance within a shared environment.
+
+1) 
+
