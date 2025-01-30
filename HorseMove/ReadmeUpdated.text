@@ -1,4 +1,4 @@
-Robot Movement Simulation (Knight's Movement)
+Robot Simulation (Knight's Movement)
 
 This program manages multiple robots that move on a grid-like terrain. Unlike typical movement (North, South, East, West), the robots move like a knight in chess, following an L-shaped pattern.
 
