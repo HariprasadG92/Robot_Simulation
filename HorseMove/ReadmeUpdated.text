@@ -1,0 +1,46 @@
+# Robot Movement Simulation (Knight's Movement)
+
+This program manages multiple robots that move on a grid-like terrain. Unlike typical movement (North, South, East, West), the robots move like a knight in chess, following an L-shaped pattern.
+
+## Project Overview
+This project simulates a system where multiple robots can move within a grid-based terrain. Each robot starts at the top-left corner of the grid and can move in specified directions based on user inputs. The program ensures that no two robots occupy the same cell at any time, and robots stay within the grid boundaries. The project is designed with simplicity and user interaction in mind.
+
+The robot now moves like a knight in chess using the commands L1 to L8. In chess, a knight moves in an L-shape, which means:
+
+Two steps in one direction (vertical or horizontal) and then one step perpendicular to that direction.
+Knight's Move Representation on a Grid
+From its current position (x, y), the robot can move in eight possible directions:
+
+IMAGE
+
+Example Movement
+Initial Position → (0, 0)
+Move L8 → (0 + 2, 0 + 1) = (2, 1)
+Move L6 → (2 + 1, 1 + 2) = (3, 3)
+Move L1 → (3 - 2, 3 - 1) = (1, 2)
+
+# How the Program Works (Example)
+# Adding Robots
+
+Enter your choice: 1
+Enter a unique robot ID: R1
+Robot with ID R1 added.
+
+Enter your choice: 1
+Enter a unique robot ID: R2
+Robot with ID R2 added.
+Moving Robots
+mathematica
+
+Enter your choice: 2
+Enter the robot ID to move: R1
+Enter the movement command (L1-L8 for horse moves): L8
+Robot R1 moved to (2, 1).
+
+# Collision Handling
+
+Enter your choice: 2
+Enter the robot ID to move: R2
+Enter the movement command: L8
+Move blocked. Robot R2 remains at (0, 0).
+If R2 tries to move to (2,1), where R1 is, the move is blocked.
