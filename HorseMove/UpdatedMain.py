@@ -3,12 +3,14 @@ class Robot:
         self.robot_id = robot_id
         self.position = (0, 0)  # Starting at the top-left corner of the grid
 
+    
+    
     def move(self, command, occupied_positions):
         x, y = self.position
         moves = {
             "L1": (-2, -1), "L2": (-2, 1), "L3": (-1, -2), "L4": (-1, 2),
             "L5": (1, -2), "L6": (1, 2), "L7": (2, -1), "L8": (2, 1)
-        }
+        } # Knights Movements 
 
         if command in moves:
             dx, dy = moves[command]
